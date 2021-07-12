@@ -1,0 +1,10 @@
+body{
+    margin: 70px 70px;
+    background-color: rgb(0, 2, 26);
+}
+h1,h2, h3, h4,p{
+    color: white;
+}
+hr{
+    background-color: white;
+}
