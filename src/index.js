@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CounterApp } from './CounterApp';
+//import { CounterApp } from './CounterApp';
+import './CounterApp.css';
+import { JikanSearchApp } from './JikanSearchApp';
 
 ReactDOM.render(
-    <CounterApp valor = {10}/>,
+    <JikanSearchApp/>,
   document.getElementById('root')
 );

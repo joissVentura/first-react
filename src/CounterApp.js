@@ -3,7 +3,6 @@ import { ComponenteHijo } from './Components/ComponenteHijo';
 
 import PropTypes from 'prop-types';
 
-import './CounterApp.css'
 
 export const CounterApp = ({valor}) => {
     const [counterState, setcounterState] = useState(valor);
@@ -32,8 +31,6 @@ export const CounterApp = ({valor}) => {
 
             <button onClick = { () => {reducir()}} 
                 className = "btn btn-outline-primary"> -1 </button>
-                
-            <ComponenteHijo/>
         </div>
     )
 }
